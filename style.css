@@ -285,22 +285,7 @@ button { cursor: pointer; }
     padding: 20px 18px;
     text-align: center;
   }
-
-  /* Student photo */
-  .profile-photo {
-    order: -1;
-
-    display: block;
-    width: 150px;
-    height: 175px;
-    aspect-ratio: auto;
-
-    margin: 0 auto 15px;
-    object-fit: cover;
-    object-position: center;
-  }
-
-  /* Student name */
+   /* Student name */
   .profile-card h2 {
     order: 1;
     width: 100%;
@@ -317,6 +302,21 @@ button { cursor: pointer; }
     text-align: center;
     font-size: 11px;
   }
+
+  /* Student photo */
+  .profile-photo {
+    order: -1;
+
+    display: block;
+    width: 150px;
+    height: 175px;
+    aspect-ratio: auto;
+
+    margin: 0 auto 15px;
+    object-fit: cover;
+    object-position: center;
+  }
+
 
   /* Links */
   .profile-card a {
