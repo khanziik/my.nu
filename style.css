@@ -269,3 +269,62 @@ button { cursor: pointer; }
   flex-shrink: 0;
 }
 
+/* Mobile profile card redesign */
+@media (max-width: 640px) {
+
+  .profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto;
+
+    padding: 20px 18px;
+    text-align: center;
+  }
+
+  /* Student photo */
+  .profile-photo {
+    order: -1;
+
+    display: block;
+    width: 150px;
+    height: 175px;
+    aspect-ratio: auto;
+
+    margin: 0 auto 15px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  /* Student name */
+  .profile-card h2 {
+    order: 1;
+    width: 100%;
+
+    margin: 0 0 7px;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  /* Student ID */
+  .student-id {
+    order: 2;
+    margin: 0 0 12px;
+    text-align: center;
+    font-size: 11px;
+  }
+
+  /* Links */
+  .profile-card a {
+    order: 3;
+    width: 100%;
+
+    margin: 6px 0;
+    text-align: center;
+    font-size: 11px;
+  }
+}
+
