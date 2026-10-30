@@ -269,6 +269,7 @@ button { cursor: pointer; }
   flex-shrink: 0;
 }
 
+
 /* Mobile profile card redesign */
 @media (max-width: 640px) {
 
@@ -327,4 +328,3 @@ button { cursor: pointer; }
     font-size: 11px;
   }
 }
-
